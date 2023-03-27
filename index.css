@@ -1,0 +1,32 @@
+#header{
+    border: 1px solid red;
+
+
+    height: 32px;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.hitem1{
+    padding: 0.1875rem 0.75rem;
+    background-color: red;
+    border-radius: 1rem;
+
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.hitem2{
+    margin: 0 1rem 0 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
