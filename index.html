@@ -1,15 +1,119 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="kr">
-    <head>
-        <meta charset="UTF-8">
-        <title>클론코딩 실습</title>
-        <link rel="stylesheet" href="./index.css">
-    </head>
-    <body>
-        <div id="header">
-            <div class="hitem1">NEW!</div>
-            <div class="hitem2"><strong>5,500원</strong>으로 지금 시작하세요.</div>
-            <div class="hitem3">자세히 알아보기 ></div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>클론코딩 실습</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="hitem1">NEW!</div>
+        <div class="hitem2"><strong style="font-size: 1.2rem">5,500원</strong>으로 지금 시작하세요.</div>
+        <div class="hitem3">자세히 알아보기 <strong>></strong></div>
+    </div>
+
+    <header style="position:relative; z-index: 1;">
+        <div class="cardheader">
+            <div class="cardheader_item1"><img class="logo"
+                    src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png">
+            </div>
+            <div class="cardheader_item2">
+                <div class="lanselection">한국어</div>
+                <div class="login">로그인</div>
+            </div>
         </div>
-    </body>
+    </header>
+
+
+    <div class="cards">
+        <section class="b card1_container">
+            <div class="card1_background">
+                <img
+                    src="https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/20daee97-3054-4bd6-9088-13c2fefc1a54/KR-ko-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg">
+                <div class="gradient"
+                    style="background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%)">
+                </div>
+            </div>
+            <div class=" card1_text">
+                <h1 style="font-size: 2rem; font-weight: 700;">영화와 시리즈를 무제한으로.</h1>
+                <p style="font-size: 1.125rem; ">다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</p>
+                <p style="font-size: 1.125rem;">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
+
+                <form>
+                    <div class="card1_emailst_container">
+                        <div class="card1_email">
+                            <input id="card1-input" type="email" placeholder="이메일 주소">
+                        </div>
+                        <button class="card1_st">시작하기 ></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- card1 -->
+        <section class="b card-container">
+            <div class="card-text">
+                <h1>TV로 즐기세요.</h1>
+                <p>스마트 TV, PlayStation, Xbox, Chromecast, Apple TV, 블루레이 플레이어 등 다양한 디바이스에서 시청하세요.</p>
+            </div>
+            <div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            </div>
+        </section>
+        <!-- card2 -->
+        <section class="b card-container">
+            <div class="card-text">
+                <h1>다양한 디바이스에서 시청하세요.</h1>
+                <p>각종 영화와 시리즈를 스마트폰, 태블릿, 노트북, TV에서 무제한으로 스트리밍하세요. 추가 요금이 전혀 없습니다.</p>
+            </div>
+            <div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                    alt="">
+            </div>
+        </section>
+        <!-- card3 -->
+        <section class="b card-container">
+            <div class="card-text">
+                <h1>어린이 전용 프로필을 만들어 보세요.</h1>
+                <p>자기만의 공간에서 좋아하는 캐릭터와 즐기는 신나는 모험. 자녀에게 이 특별한 경험을 선물하세요. 넷플릭스 회원이라면 무료입니다.</p>
+            </div>
+            <div>
+                <img src="https://occ-0-1361-2218.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABe3Dqef6rg30BxYraI75i97IeQjD0YxUuToAnSA23dl0XQFrjXaFTWIB0HHy4TH_s094NU-9IjLpE_96AvWpTZTAQOR_icyEYcsB.png?r=acf"
+                    alt="">
+            </div>
+        </section>
+        <!-- card4 -->
+        <section class="b card-container">
+            <div class="card-text">
+                <h1>즐겨 보는 콘텐츠를 저장해 오프라인으로 시청하세요.</h1>
+                <p>광고 없는 멤버십에서만 이용 가능합니다.</p>
+            </div>
+            <div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                    alt="">
+            </div>
+        </section>
+        <!-- card5 -->
+
+        <section class="b card-container">
+            
+                <h1 style="color:white;">자주 묻는 질문</h1>
+                <ul class="qna-container">
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?</span><span class="qna-plus">+</span></button></li>
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">넷플릭스란 무엇인가요?</span><span class="qna-plus">+</span></button></li>
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">넷플릭스 요금은 얼마인가요?</span><span class="qna-plus">+</span></button></li>
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">광고형 멤버십은 뭐가 다른가요?</span><span class="qna-plus">+</span></button></li>
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">어디에서 시청하 수 있나요?</span><span class="qna-plus">+</span></button></li>
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">멤버십을 해지하려면 어떻게 하나요?</span><span class="qna-plus">+</span></button></li>
+                    <li class="qna--button-list"><button class="qna-button"><span class="qna-text">아이들이 넷플릭스를 봐도 좋을까요?</span><span class="qna-plus">+</span></button></li>
+                </ul>
+
+            
+
+        </section>
+        <div class="b"></div>
+    </div>
+</body>
+
 </html>
